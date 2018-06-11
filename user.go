@@ -12,6 +12,7 @@ type ContactMethod struct {
 	Label          string
 	Address        string
 	Type           string
+	CountryCode    uint `json:"country_code"`
 	SendShortEmail bool `json:"send_short_email"`
 }
 
